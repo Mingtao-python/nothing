@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Semantic Search Assistant</title>
+</head>
+<body>
+    <h1>AI Semantic Search Assistant</h1>
+
+    <form method="POST">
+        <input type="text" name="query" placeholder="Enter your query" style="width: 400px;">
+        <button type="submit">Search</button>
+    </form>
+
+    {% if query %}
+        <h2>Query</h2>
+        <p>{{ query }}</p>
+
+        <h2>Cosine Similarity (Implementation 1)</h2>
+        <p>{{ cosine_result }}</p>
+
+        <h2>TF-IDF Results (Implementation 2)</h2>
+        {% for text, score in tfidf_results %}
+            <p>{{ text }} — {{ score }}</p>
+        {% endfor %}
+
+        <h2>Embedding Similarity Matrix (Implementation 3)</h2>
+        <pre>
+{% for row in embedding_matrix %}
+{{ row }}
+{% endfor %}
+        </pre>
+
+        <h2>Vector Search Results (Implementation 4)</h2>
+        {% for text, score in vector_results %}
+            <p>{{ text }} — {{ score }}</p>
+        {% endfor %}
+
+        <h2>Embedding Search Results (Implementation 5)</h2>
+        {% for text, score in embedding_results %}
+            <p>{{ text }} — {{ score }}</p>
+        {% endfor %}
+
+        <h2>Gradient Descent Loss Curve (Implementation 6)</h2>
+        <pre>{{ loss_curve }}</pre>
+
+        <h2>Embedding Failure Cases (Implementation 7)</h2>
+        {% for item in failure_cases %}
+            <p>{{ item }}</p>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>

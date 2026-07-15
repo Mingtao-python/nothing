@@ -1,0 +1,55 @@
+machine learning is a field of AI
+deep learning uses neural networks
+transformers changed NLP
+sentence embeddings capture semantic meaning
+vector search finds similar documents
+gradient descent optimizes model parameters
+cosine similarity measures vector direction
+euclidean distance measures magnitude
+tfidf represents text using weighted keywords
+semantic search understands meaning instead of keywords
+faiss enables fast vector search
+milvus is a distributed vector database
+pinecone provides managed vector storage
+weaviate supports hybrid search
+chroma is a lightweight embedding database
+rag combines retrieval with generation
+rerankers improve search quality
+cross-encoders provide better relevance scoring
+embeddings map text into dense vectors
+tokenizers split text into smaller units
+python is widely used in AI development
+flask can build simple web applications
+numpy provides fast numerical operations
+pytorch is a deep learning framework
+tensorflow supports large-scale training
+the earth revolves around the sun
+water boils at 100 degrees celsius
+gravity pulls objects toward each other
+photosynthesis converts sunlight into energy
+electricity flows through conductive materials
+the capital of france is paris
+the tallest mountain is mount everest
+the pacific ocean is the largest ocean
+the amazon rainforest is the largest rainforest
+the sahara is the largest hot desert
+dogs are loyal animals
+cats are independent pets
+birds can fly using wings
+fish breathe through gills
+elephants have long trunks
+a short sentence
+random words without meaning
+this text is intentionally vague
+completely unrelated content here
+nonsense sentence to test embeddings
+mathematics studies numbers and patterns
+algebra deals with variables and equations
+geometry focuses on shapes and angles
+calculus analyzes change and motion
+probability measures uncertainty
+cloud computing provides scalable resources
+databases store structured information
+APIs allow systems to communicate
+cybersecurity protects digital assets
+virtual machines emulate computer systems
