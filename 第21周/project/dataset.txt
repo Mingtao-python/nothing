@@ -1,5 +1,0 @@
-machine learning is a field of AI
-deep learning uses neural networks
-transformers changed NLP
-sentence embeddings capture semantic meaning
-vector search finds similar documents
